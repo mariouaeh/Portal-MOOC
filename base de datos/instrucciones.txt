@@ -1,0 +1,2 @@
+1.- abrir el gestor de base de datos 
+2.- exportar el archivo mooc.sql en el gestor 

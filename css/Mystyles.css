@@ -1,0 +1,228 @@
+
+
+body{
+  overflow-x: hidden;
+  font-family: Lato, sans-serif;
+}
+
+.view {
+  height: 50vh;
+ 
+}
+.conteiner-heder{
+   height: 25vh;
+   background: #EAE3D8;
+    float: none;
+    text-align: center;
+}
+.heder{
+  background: #EAE3D8;
+  font-family:"Cinzel", serif;
+  color: #282828;
+    text-align: center;
+}
+.bg_uaeh{
+  background: #800101;
+  color: white;
+}
+ .h1a {
+    font-variant:small-caps !importan;
+    font-size:25px;
+    text-align: center;
+    font-weight:bold;
+}
+.row_titulo{
+  height: auto;
+  background:#706A5C;
+  color: white;
+
+}
+.ui-jqgrid-view_1{
+
+}
+.ui-jqgrid table{
+  border: 1px solid #800101;
+    background: #800101 url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    color: #ffffff;
+    font-weight: bold;
+    font-variant:small-caps;
+}
+.ui-widget-header{
+  border: 1px solid #800101;
+    background: #800101 url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    color: #ffffff;
+    font-weight: bold;
+    font-variant:small-caps;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+  border: 1px solid #800101;
+    background: #800101 url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x;
+    color: #ffffff;
+    font-weight: bold;
+    font-variant:small-caps;
+
+}
+.logo{
+  float: left;
+    margin-right: 70px;
+    margin-top: 75px;
+    margin-bottom: 24px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    width: 100px;
+    height: 90px;
+    background-image: url(./../img/uaeh.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.title{
+  background: #706A5C;
+  height: auto;
+  text-align: center;
+  color: white;
+  padding: : 1rem;
+
+}
+.footer{
+  height: 20vh;
+  background-color: #800101;
+  color: white;
+}
+
+
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+.catalogo{
+  height: 75vh
+}
+
+.abs-center {
+  margin-right: 6rem; 
+}
+ 
+.tema {
+  height:  100px;
+}
+.margin_left{
+  margin-left: 3rem;
+}
+.margin_title{
+  margin-bottom:  3rem;
+}
+.search{
+    width: 401px;
+}
+.tex_black{
+  color: black
+}
+
+h1, h2, h3, h4{
+  font-family: 'Amaranth', sans-serif;
+}
+
+.gris {
+  background: #800101;
+}
+.top-nav-collapse{
+     background: rgba(0,0,0,0.8)
+}
+
+.background-img_1{
+  background-image: url("./img/bckg_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-cursos{
+
+  width: 200px;
+  height: 150px;
+}
+
+.no_registrado{
+  display: none !important;
+}
+
+.registrado{
+  display: block !important;
+}
+.temas{
+  font-style: italic;
+  font-size: 1.5rem;
+  color:black;
+}
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+    .fix-height {
+      height: 0vh;
+    }
+
+    .fix-heightVideo{
+      min-height: 100Vh;
+    }
+
+    .xx-large{
+      font-size: x-large;
+    }
+
+    .x-large{
+      font-size: large;
+    }
+
+    .display-3 {
+        font-size: 2.5rem;
+    }
+
+    .text-section{
+        font-size: large;
+    }
+    .section_sm{
+      height: auto;
+    }
+    .background-img_explocion{
+      display: block;
+      height: 100vh
+
+    }
+    .container {
+        min-width: 100vw;
+      }
+    .margin_left{
+      margin-left: 0rem;
+    }
+    .desc{
+      font-size: 0.7rem;
+    }
+
+  .d-flex {
+    position: relative;
+  }
+  .row {
+    position: relative;
+  }
+  .heder{
+  background: #EAE3D8;
+  font-family:"Cinzel", serif;
+  color: #282828;
+  text-align: center;
+  font-size: 1.3rem;
+  }
+  .title{
+  background: #706A5C;
+  height: auto;
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  }
+
+}
